@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "ACOA,OAAO,CAAC,0FAAI;AAGZ,OAAO,CAAC,wFAAI;AAVZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AEJD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EDQN,OAAO;CCPpB;;AKFD,AAAA,aAAa,CAAC;EACV,OAAO,EAAC,KAAK;EACb,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,QAAQ,EAAE,KAAK;EACf,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,aAAa,EAAC,GAAG;EACjB,WAAW,EAAC,IAAI;EAChB,UAAU,EAAC,MAAM;EACjB,OAAO,EAAC,GAAG;CACd",
+    "sources": [
+        "style.scss",
+        "base/_generales.scss",
+        "base/_variables.scss",
+        "componentes/_header.scss",
+        "componentes/_productos-servicios.scss",
+        "componentes/_encargos.scss",
+        "componentes/_contactos.scss",
+        "componentes/_galeria.scss",
+        "componentes/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
