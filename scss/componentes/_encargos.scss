@@ -1,28 +1,39 @@
-// .separador {
-//     width: 416px;
-//     height: 78px;
-//     // text-align: center;
-// }
+.encargos {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
-// .subtitulo {
-//     font-family: $titulo;
-//     font-weight: 400;
-//     font-size: 50px;
-//     line-height: 48.5px;
-//     letter-spacing: 0.06em;
-//     color: $blanco;
-//     font-style: italic;
+.encargosHeader {
+    font-size: 3.5rem;
+}
 
-// }
+.encargoTitulo {
+    font-family: $parrafo;
+    color: $blanco;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    letter-spacing: 0.004rem;
+    margin-bottom: 15px;
+}
 
-// .subtitulo-span {
-//     font-family: $titulo;
-//     font-weight: 400;
-//     font-size: 100px;
-//     line-height: 97px;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     color: $amarillo;
-//     font-style: normal;
-// }
+.encargoInfo {
+    font-family: $parrafo;
+    color: $blanco;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.06em;
+}
 
+.card-header {
+    border-bottom: 0px;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+}

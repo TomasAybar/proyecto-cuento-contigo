@@ -110,7 +110,8 @@ body {
 }
 
 .productos {
-  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,20 +120,14 @@ body {
       justify-content: space-around;
 }
 
-.producto-img {
-  width: 270px;
-  height: 270px;
-  margin-bottom: 40px;
-}
-
 .producto-titulo {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-size: 38px;
+  font-size: 2rem;
   font-weight: 500;
-  line-height: 40px;
-  letter-spacing: 0.06px;
+  line-height: 2.5rem;
+  letter-spacing: 0.004rem;
   margin-bottom: 15px;
 }
 
@@ -140,10 +135,61 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.06em;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0;
+}
+
+.card {
+  border: 0px;
+}
+
+.encargos {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.encargosHeader {
+  font-size: 3.5rem;
+}
+
+.encargoTitulo {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.004rem;
+  margin-bottom: 15px;
+}
+
+.encargoInfo {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.06em;
+}
+
+.card-header {
+  border-bottom: 0px;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0;
 }
 
 .galeria {
