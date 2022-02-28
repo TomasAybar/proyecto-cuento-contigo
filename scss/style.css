@@ -146,21 +146,6 @@ body {
   letter-spacing: 0.06em;
 }
 
-.galeria {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
-}
-
-.galeria__item {
-  width: 100%;
-}
-
-.tituloGaleria {
-  font-size: 300px;
-}
-
 .btn-whatsapp {
   display: block;
   width: 70px;
