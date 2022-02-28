@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- normalize -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Cuento Contigo</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- HEADER -->
     <header class="header">
-        <!-- <div>
+      <!-- <div>
         <img src="assets/svg/logo.svg" alt="logo" />
       </div> -->
 
-        <!-- <nav>
+      <!-- <nav>
         <ul>
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#encargos">Encargos</a></li>
@@ -31,132 +35,228 @@
         </ul>
       </nav> -->
 
-        <!-- <section>
+      <!-- <section>
         <h1>Cuento contigo</h1>
       </section> -->
 
-        <section class="header-nav">
-            <div class="nav-logo">
-                <img src="assets/svg/logo.svg" alt="logo">
-            </div>
+      <section class="header-nav">
+        <div class="nav-logo">
+          <img src="assets/svg/logo.svg" alt="logo" />
+        </div>
 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a class="list-item" href="#servicios">Servicios</a></li>
-                    <li><a class="list-item" href="#encargos">Encargos</a></li>
-                    <li><a class="list-item" href="#contactos">Contactos</a></li>
-                    <li><a class="list-item" href="#galeria">Galeria</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="list-item" href="#servicios">Servicios</a></li>
+            <li><a class="list-item" href="#encargos">Encargos</a></li>
+            <li><a class="list-item" href="#contactos">Contactos</a></li>
+            <li><a class="list-item" href="#galeria">Galeria</a></li>
+          </ul>
+        </nav>
+      </section>
 
-        <section class="header-background">
-            <img class="background-titulo" src="assets/svg/titulo.svg" alt="titulo principal">
-        </section>
+      <section class="header-background">
+        <img
+          class="background-titulo"
+          src="assets/svg/titulo.svg"
+          alt="titulo principal"
+        />
+      </section>
     </header>
     <!-- HEADER -->
 
     <!-- MAIN -->
     <main>
-        
-        <!-- Servicios y Productos -->
-        <section id="servicios" class="servicios-productos">
-            <section class="servicios">
-                <img class="separador" src="assets/svg/separador-servicios.svg" alt="separador">
-                <h2 class="subtitulo">Productos y <span class="subtitulo-span">Servicios</span></h2>
-            </section>
-
-            <section class="productos">
-                <div class="producto">
-                    <img class="producto-img" src="assets/img/servicio1.png" alt="producto">
-                    <h3 class="producto-titulo">Producto</h3>
-                    <p class="producto-info">Descripcion del producto.</p>
-                </div>
-                <div class="producto">
-                    <img class="producto-img" src="assets/img/servicio2.png" alt="producto">
-                    <h3 class="producto-titulo">Producto</h3>
-                    <p class="producto-info">Descripcion del producto.</p>
-                </div>
-                <div class="producto">
-                    <img class="producto-img" src="assets/img/servicio1.png" alt="producto">
-                    <h3 class="producto-titulo">Producto</h3>
-                    <p class="producto-info">Descripcion del producto.</p>
-                </div>
-                <div class="producto">
-                    <img class="producto-img" src="assets/img/servicio2.png" alt="producto">
-                    <h3 class="producto-titulo">Producto</h3>
-                    <p class="producto-info">Descripcion del producto.</p>
-                </div>
-            </section>
+      <!-- Servicios y Productos -->
+      <section id="servicios" class="servicios-productos">
+        <section class="servicios">
+          <img
+            class="separador"
+            src="assets/svg/separador-servicios.svg"
+            alt="separador"
+          />
+          <h2 class="subtitulo">
+            Productos y <span class="subtitulo-span">Servicios</span>
+          </h2>
         </section>
-        <!-- Servicios y Productos -->
 
-        <!-- Realiza tus encargos -->
-        <section>
-            <img class="separador" src="assets/svg/separador-servicios.svg" alt="separador">
-            <h2 class="subtitulo">Realizá tus <span class="subtitulo-span">encargos</span></h2>
-
-            <article>
-                <div>
-                    <h3>01</h3>
-                    <h3>Contactanos</h3>
-                    <p>Podes hacernos tu pedido mediante nuestro WhatsApp, Instagram o Facebook.</p>
-                </div>
-                <div>
-                    <h3>02</h3>
-                    <h3>Formas de pago</h3>
-                    <p>Una vez que elijas el servicio podes abonar mediante transferencia bancaraia, efectivo o inclusive Mercado Pago.</p>
-                </div>
-                <div>
-                    <h3>03</h3>
-                    <h3>Trabajamos juntos</h3>
-                    <p>El desarrollo esta ligado a un proceso en conjunto entre vos y nosotros donde te pedimos informacion para hacer el libro.</p>
-                </div>
-            </article>
+        <section class="productos">
+          <div class="producto">
+            <img
+              class="producto-img"
+              src="assets/img/servicio1.png"
+              alt="producto"
+            />
+            <h3 class="producto-titulo">Producto</h3>
+            <p class="producto-info">Descripcion del producto.</p>
+          </div>
+          <div class="producto">
+            <img
+              class="producto-img"
+              src="assets/img/servicio2.png"
+              alt="producto"
+            />
+            <h3 class="producto-titulo">Producto</h3>
+            <p class="producto-info">Descripcion del producto.</p>
+          </div>
+          <div class="producto">
+            <img
+              class="producto-img"
+              src="assets/img/servicio1.png"
+              alt="producto"
+            />
+            <h3 class="producto-titulo">Producto</h3>
+            <p class="producto-info">Descripcion del producto.</p>
+          </div>
+          <div class="producto">
+            <img
+              class="producto-img"
+              src="assets/img/servicio2.png"
+              alt="producto"
+            />
+            <h3 class="producto-titulo">Producto</h3>
+            <p class="producto-info">Descripcion del producto.</p>
+          </div>
         </section>
-        <!-- Realiza tus encargos -->
+      </section>
+      <!-- Servicios y Productos -->
 
-        <!-- Nuestros contactos -->
-        <section>
-            <img class="separador" src="assets/svg/separador-servicios.svg" alt="separador">
-            <h2 class="subtitulo">Nuestros <span class="subtitulo-span">contactos</span></h2>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0771996230533!2d-58.49956674675413!3d-34.6527532393467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc907c737a96b%3A0x700f2f89b8440857!2sCuento%20Contigo%20Regalos%20Personalizados!5e0!3m2!1sen!2sar!4v1644757190014!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <!-- Realiza tus encargos -->
+      <section>
+        <img
+          class="separador"
+          src="assets/svg/separador-servicios.svg"
+          alt="separador"
+        />
+        <h2 class="subtitulo">
+          Realizá tus <span class="subtitulo-span">encargos</span>
+        </h2>
 
-                <div>
-                    <ul>
-                        <li>Puntos de entrega:</li>
-                        <li>Teléfono: </li>
-                        <li>Redes: </li>
-                        <li>Otros: </li>
-                    </ul>
-                </div>
+        <article>
+          <div>
+            <h3>01</h3>
+            <h3>Contactanos</h3>
+            <p>
+              Podes hacernos tu pedido mediante nuestro WhatsApp, Instagram o
+              Facebook.
+            </p>
+          </div>
+          <div>
+            <h3>02</h3>
+            <h3>Formas de pago</h3>
+            <p>
+              Una vez que elijas el servicio podes abonar mediante transferencia
+              bancaraia, efectivo o inclusive Mercado Pago.
+            </p>
+          </div>
+          <div>
+            <h3>03</h3>
+            <h3>Trabajamos juntos</h3>
+            <p>
+              El desarrollo esta ligado a un proceso en conjunto entre vos y
+              nosotros donde te pedimos informacion para hacer el libro.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Realiza tus encargos -->
+
+      <!-- Nuestros contactos -->
+      <section>
+        <img
+          class="separador"
+          src="assets/svg/separador-servicios.svg"
+          alt="separador"
+        />
+        <h2 class="subtitulo">
+          Nuestros <span class="subtitulo-span">contactos</span>
+        </h2>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0771996230533!2d-58.49956674675413!3d-34.6527532393467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc907c737a96b%3A0x700f2f89b8440857!2sCuento%20Contigo%20Regalos%20Personalizados!5e0!3m2!1sen!2sar!4v1644757190014!5m2!1sen!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+
+          <div>
+            <ul>
+              <li>Puntos de entrega:</li>
+              <li>Teléfono:</li>
+              <li>Redes:</li>
+              <li>Otros:</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Nuestros contactos -->
+
+      <!-- Nuestra galeria -->
+      <section>
+        <div><img
+          class="separador"
+          src="assets/svg/separador-servicios.svg"
+          alt="separador"
+        />
+        <h2 class="subtitulo">
+          Nuestra <span class="subtitulo-span">galería</span>
+        </h2>
+        <!--<article>
+          <img src="assets/img/Galeria-1.png" alt="Galeria" />
+          <img src="assets/img/Galeria-2.png" alt="Galeria" />
+          <img src="assets/img/Galeria-3.png" alt="Galeria" />
+          <img src="assets/img/Galeria-4.png" alt="Galeria" />
+          <img src="assets/img/Galeria-5.png" alt="Galeria" />
+          <img src="assets/img/Galeria-6.png" alt="Galeria" />
+          <img src="assets/img/Galeria-7.png" alt="Galeria" />
+          <img src="assets/img/Galeria-8.png" alt="Galeria" />
+          <img src="assets/img/Galeria-9.png" alt="Galeria" />
+        </article>-->
+    </div>
+
+
+
+
+        <div class="galeria">
+          <h3 class="tituloGaleria">Galeria</h3>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-1.png" alt="Galeria1" />
             </div>
-        </section>
-        <!-- Nuestros contactos -->
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-2.png" alt="Galeria2" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-3.png" alt="Galeria3" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-4.png" alt="Galeria4" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-5.png" alt="Galeria5" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-6.png" alt="Galeria6" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-7.png" alt="Galeria7" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-8.png" alt="Galeria8" />
+            </div>
+            <div class="galeria__item">
+                <img src="assets/img/Galeria-9.png" alt="Galeria9" />
+            </div>
+        </div>
+      </section>
 
-        <!-- Nuestra galeria -->
-        <section>
-            <img class="separador" src="assets/svg/separador-servicios.svg" alt="separador">
-            <h2 class="subtitulo">Nuestra <span class="subtitulo-span">galería</span></h2>
-            <article>
-                <img src="assets/img/Galeria-1.png" alt="Galeria">
-                <img src="assets/img/Galeria-2.png" alt="Galeria">
-                <img src="assets/img/Galeria-3.png" alt="Galeria">
-                <img src="assets/img/Galeria-4.png" alt="Galeria">
-                <img src="assets/img/Galeria-5.png" alt="Galeria">
-                <img src="assets/img/Galeria-6.png" alt="Galeria">
-                <img src="assets/img/Galeria-7.png" alt="Galeria">
-                <img src="assets/img/Galeria-8.png" alt="Galeria">
-                <img src="assets/img/Galeria-9.png" alt="Galeria">
-            </article>
-        </section>
-        <!-- Nuestra galeria -->
 
 
-            
 
-            <!-- <section>
+
+            <!-- Nuestra galeria -->
+
+      <!-- <section>
                 <div>
                     <img src="assets/img/servicio1.png" alt="producto" />
                     <h3>Producto</h3>
@@ -206,7 +306,7 @@
                 </section>
             </section> -->
 
-            <!-- <section><a name="encargos"></a>
+      <!-- <section><a name="encargos"></a>
                 <h2>Realiza tus <span>encargos</span></h2>
 
                 <article>
@@ -237,7 +337,7 @@
                 </article>
             </section> -->
 
-            <!-- <section><a name="contacto"></a>
+      <!-- <section><a name="contacto"></a>
                 <h2>Nuestros <span>contactos</span></h2>
                 <div>
                     <iframe
@@ -255,7 +355,7 @@
                 </div>
             </section> -->
 
-            <!-- <section>
+      <!-- <section>
                 <h2 class="subtitulo">Realizá tus <span class="subtitulo-span">encargos</span></h2>
 
                 <article>
@@ -312,7 +412,7 @@
                 </article>
             </section> -->
 
-            <!-- <section><a name="galeria"></a>
+      <!-- <section><a name="galeria"></a>
                 <h2>Nuestra <span>galeria</span></h2>
                 <article>
                     <img src="assets/img/Galeria-1.png" alt="Galeria" />
@@ -326,33 +426,45 @@
                     <img src="assets/img/Galeria-9.png" alt="Galeria" />
                 </article>
             </section> -->
-            
-
-
-
     </main>
     <!-- MAIN -->
 
     <!-- FOOTER -->
     <footer>
-        <ul>
-            <li>Numero de telefono</li>
-            <li>...@gmail.com</li>
-            <li>Puntos de entrega</li>
-            <li>/cuentocontigo</li>
-            <li>@cuentocontigo</li>
-        </ul>
+      <ul>
+        <li>Numero de telefono</li>
+        <li>...@gmail.com</li>
+        <li>Puntos de entrega</li>
+        <li>/cuentocontigo</li>
+        <li>@cuentocontigo</li>
+      </ul>
 
-        <p>© 2022 CuentoContigo - Todos los Derechos Reservados.</p>
+      <p>© 2022 CuentoContigo - Todos los Derechos Reservados.</p>
 
-        <div class="btn-whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=+54 9 11 4673-5035" target="_blank">
-                <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
-            </a>
-        </div>
+      <div class="btn-whatsapp">
+        <a
+          href="https://api.whatsapp.com/send?phone=+54 9 11 4673-5035"
+          target="_blank"
+        >
+          <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="" />
+        </a>
+      </div>
     </footer>
     <!-- FOOTER -->
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
