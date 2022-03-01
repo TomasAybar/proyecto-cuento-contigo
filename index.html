@@ -36,16 +36,17 @@
           </ul>
         </nav>
       </section>
-
-      <section class="header-background">
-        <img
-          class="background-titulo"
-          src="assets/svg/titulo.svg"
-          alt="titulo principal"
-        />
-      </section>
     </header>
     <!-- Fin - HEADER -->
+
+    <!-- Inicio - Header Cover -->
+    <section class="header-background">
+      <div class="background-titulo">
+        <img src="assets/svg/titulo.svg" alt="titulo principal" />
+      </div>
+    </section>
+
+    <!-- Fin - Header Cover -->
 
     <!-- Inicio - MAIN -->
     <main>
@@ -58,7 +59,8 @@
             alt="separador"
           />
           <h2 class="subtitulo">
-            Productos y <span class="subtitulo-span">Servicios</span>
+            Productos y <br />
+            <span class="subtitulo-span">Servicios</span>
           </h2>
         </div>
 
@@ -143,7 +145,6 @@
 
       <!-- Inicio - Realiza tus encargos -->
       <section id="encargos">
-        
         <div class="contenedorTitulos">
           <img
             class="separador"
@@ -151,7 +152,8 @@
             alt="separador"
           />
           <h2 class="subtitulo">
-            Realizá tus <span class="subtitulo-span">encargos</span>
+            Realizá tus <br />
+            <span class="subtitulo-span">encargos</span>
           </h2>
         </div>
 
@@ -162,7 +164,7 @@
                 class="card h-100 text-white bg-dark mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header encargosHeader">01</div>
+                <div class="card-header bg-dark encargosHeader">01</div>
                 <div class="card-body">
                   <h5 class="card-title encargosTitulo">Contactanos</h5>
                   <p class="card-text encargosInfo">
@@ -177,7 +179,7 @@
                 class="card h-100 text-white bg-dark mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header encargosHeader">02</div>
+                <div class="card-header bg-dark encargosHeader">02</div>
                 <div class="card-body">
                   <h5 class="card-title encargosTitulo">Formas de pago</h5>
                   <p class="card-text encargosInfo">
@@ -192,7 +194,7 @@
                 class="card h-100 text-white bg-dark mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header encargosHeader">03</div>
+                <div class="card-header bg-dark encargosHeader">03</div>
                 <div class="card-body">
                   <h5 class="card-title encargosTitulo">Trabajamos juntos</h5>
                   <p class="card-text encargosInfo">
@@ -204,7 +206,6 @@
             </div>
           </div>
         </div>
-
       </section>
       <!-- Fin - Realiza tus encargos -->
 
@@ -217,20 +218,23 @@
             alt="separador"
           />
           <h2 class="subtitulo">
-            Nuestros <span class="subtitulo-span">contactos</span>
+            Nuestros <br />
+            <span class="subtitulo-span">contactos</span>
           </h2>
         </div>
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0771996230533!2d-58.49956674675413!3d-34.6527532393467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc907c737a96b%3A0x700f2f89b8440857!2sCuento%20Contigo%20Regalos%20Personalizados!5e0!3m2!1sen!2sar!4v1644757190014!5m2!1sen!2sar"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+        <div class="d-flex justify-content-center">
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0771996230533!2d-58.49956674675413!3d-34.6527532393467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc907c737a96b%3A0x700f2f89b8440857!2sCuento%20Contigo%20Regalos%20Personalizados!5e0!3m2!1sen!2sar!4v1644757190014!5m2!1sen!2sar"
+              width="500"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
 
-          <div>
+          <div class="datosContacto">
             <ul>
               <li>Puntos de entrega:</li>
               <li>Teléfono:</li>
@@ -251,7 +255,8 @@
             alt="separador"
           />
           <h2 class="subtitulo">
-            Nuestra <span class="subtitulo-span">galería</span>
+            Nuestra <br />
+            <span class="subtitulo-span">galería</span>
           </h2>
         </div>
 
@@ -330,16 +335,29 @@
 
     <!-- Incio - FOOTER -->
     <footer>
-      <ul>
-        <li>Numero de telefono</li>
-        <li>...@gmail.com</li>
-        <li>Puntos de entrega</li>
-        <li>/cuentocontigo</li>
-        <li>@cuentocontigo</li>
-      </ul>
-
-      <p>© 2022 CuentoContigo - Todos los Derechos Reservados.</p>
-
+      <div class="footerRedes">
+        <div class="footerRedesIzq d-flex justify-content-end">
+          <img src="assets/svg/titulo.svg" alt="titulo principal" />
+        </div>
+        <div class="footerRedesDer">
+          <div class="footerRedesDer1">
+            <ul>
+              <li>Numero de telefono</li>
+              <li>...@gmail.com</li>
+              <li>Puntos de entrega</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>/cuentocontigo</li>
+              <li>@cuentocontigo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footerDerechos">
+        <p>© 2022 CuentoContigo - Todos los Derechos Reservados.</p>
+      </div>
       <div class="btn-whatsapp">
         <a
           href="https://api.whatsapp.com/send?phone=+54 9 11 4673-5035"
