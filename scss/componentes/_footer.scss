@@ -5,7 +5,7 @@
 }
 
 .footerRedesIzq {
-    width: 50%;
+    width: 45%;
     height: auto;
 
     img {
@@ -15,7 +15,7 @@
 }
 
 .footerRedesDer {
-    width: 50%;
+    width: 55%;
     height: auto;
     justify-content: flex-start;
     align-items: center;
@@ -25,15 +25,20 @@
         list-style-type: none;
 
         li {
-            padding-left: 5%;
             color: $blanco;
         }
     }
 }
 
 .footerRedesDer1 {
-    width: 30%;
+    width: 40%;
 }
+
+.footerRedesDer2 {
+    width: 60%;
+}
+
+
 
 .footerDerechos {
     p {
