@@ -9,7 +9,7 @@
     height: auto;
 
     img {
-        width: 40%;
+        width: 45%;
         margin-right: 10%;
     }
 }
@@ -17,8 +17,6 @@
 .footerRedesDer {
     width: 55%;
     height: auto;
-    justify-content: flex-start;
-    align-items: center;
     display: flex;
 
     div ul {
@@ -37,8 +35,6 @@
 .footerRedesDer2 {
     width: 60%;
 }
-
-
 
 .footerDerechos {
     p {
@@ -62,4 +58,45 @@
     line-height: 80px;
     text-align: center;
     z-index: 999;
+}
+
+@media (max-width:768px) {
+    .footerRedes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerRedesIzq {
+        width: 47%;
+
+        img {
+            width: 100%;
+            align-items: center;
+            margin-right: 0%;
+        }
+    }
+
+    .footerRedesDer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footerRedesDer1 {
+        width: 100%;
+        text-align: center;
+
+        ul {
+            padding-left: 0%;
+        }
+    }
+
+    .footerRedesDer2 {
+        width: 100%;
+        text-align: center;
+
+        ul {
+            padding-left: 0%;
+        }
+    }
 }
