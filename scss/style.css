@@ -53,8 +53,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -91,6 +89,11 @@ body {
   transition: .4s;
 }
 
+.nav-logo {
+  margin-right: 5em;
+  margin-left: 3em;
+}
+
 .header-background {
   position: relative;
   width: 100%;
@@ -109,6 +112,24 @@ body {
   bottom: 87.52%;
   width: 35.625em;
   height: 21.108em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-background .background-titulo {
+    position: relative;
+    left: 50%;
+    width: 21.375em;
+    height: 12.6648em;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-background .background-titulo {
+    position: relative;
+    left: 40%;
+    width: 10.6875em;
+    height: 6,3324em;
+  }
 }
 
 .servicios-productos {
@@ -292,7 +313,7 @@ body {
 }
 
 .footerRedesIzq img {
-  width: 20%;
+  width: 40%;
   margin-right: 10%;
 }
 
