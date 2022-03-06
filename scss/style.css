@@ -134,21 +134,29 @@ body {
   height: 21.108em;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .header-background .background-titulo {
     position: relative;
     left: 50%;
     width: 21.375em;
     height: 12.6648em;
   }
+  .nav-logo {
+    margin-right: 0em;
+    margin-left: 0em;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-background .background-titulo {
     position: relative;
     left: 40%;
     width: 10.6875em;
-    height: 6,3324em;
+    height: 6, 3324em;
+  }
+  .nav-logo {
+    margin-right: 0em;
+    margin-left: 0em;
   }
 }
 
@@ -379,6 +387,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footerRedesDer div ul {
@@ -387,6 +398,7 @@ body {
 
 .footerRedesDer div ul li {
   color: #FFFFFF;
+  font-size: 1.1em;
 }
 
 .footerRedesDer1 {
@@ -411,12 +423,17 @@ body {
   width: 70px;
   height: 70px;
   position: fixed;
-  right: 20px;
+  right: 5px;
   bottom: 20px;
   border-radius: 50%;
   line-height: 80px;
   text-align: center;
   z-index: 999;
+}
+
+.btn-whatsapp a img {
+  width: 55px;
+  height: 55px;
 }
 
 @media (max-width: 768px) {
