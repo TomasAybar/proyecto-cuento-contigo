@@ -1,0 +1,100 @@
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    
+    body {
+        .header {
+            .header-nav {
+                .nav {
+                    .nav-box {
+                        .nav-list {
+                            .nav-item {
+                                .list-item {
+                                    margin-right: 0rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header-background {
+            .backgorund-titulo {
+                // position: relative;
+                // left: 45%;
+                // width: 30rem;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 65%;
+            }
+        }
+
+        main {
+            .separador {
+                width: 18.2em;
+                height: 3.4125em;
+            }
+            .subtitulo {
+                font-size: 2.5em;
+            }
+
+            .servicios-productos {
+
+                margin-bottom: 75px;
+                .productos {
+                    .productos-box {
+                        // display: flex;
+                        // justify-content: center;
+                        // align-items: center;
+                        // border: 1px solid red;
+                        // text-align: center;
+    
+                        .card {
+                        //    border: 1px solid blue;
+                           margin: 0 auto;
+                           .card-body {
+                               text-align: center;
+                           }
+                        }
+                    }
+                }
+            }
+
+            .contenedorTitulos {
+                margin-bottom: 3.25em;
+            }
+            .encargos {
+                .card {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 769px) and (max-width:900px) {
+
+   
+ }
+
+
+@media screen and (min-width: 901px) and (max-width:1366px) {
+
+   
+
+}
+
+
+@media screen and (min-width: 1367px) and (max-width:1680px) {
+
+   
+}
+
+
+@media screen and (min-width: 1681px){
+
+    
+}

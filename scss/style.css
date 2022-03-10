@@ -61,6 +61,42 @@ body {
     font-size: 1em;
   }
 }
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  body .header .header-nav .nav .nav-box .nav-list .nav-item .list-item {
+    margin-right: 0rem;
+  }
+  body .header-background .backgorund-titulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+  }
+  body main .separador {
+    width: 18.2em;
+    height: 3.4125em;
+  }
+  body main .subtitulo {
+    font-size: 2.5em;
+  }
+  body main .servicios-productos {
+    margin-bottom: 75px;
+  }
+  body main .servicios-productos .productos .productos-box .card {
+    margin: 0 auto;
+  }
+  body main .servicios-productos .productos .productos-box .card .card-body {
+    text-align: center;
+  }
+  body main .contenedorTitulos {
+    margin-bottom: 3.25em;
+  }
+  body main .encargos .card {
+    margin: 0 auto;
+  }
+}
+/* DESKTOP */
 .header {
   width: 100%;
 }
