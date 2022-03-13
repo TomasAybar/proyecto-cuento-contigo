@@ -1,40 +1,45 @@
 .servicios-productos {
     margin-bottom: 150px;
-}
 
-.productos {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
+    .productos {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
 
-.producto-titulo {
-    font-family: $parrafo;
-    text-transform: uppercase;
-    color: $blanco;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.5rem;
-    letter-spacing: 0.004rem;
-    margin-bottom: 15px;
-}
+        .productos-box {
 
-.producto-info {
-    font-family: $parrafo;
-    text-transform: uppercase;
-    color: $blanco;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.06em;
-}
+            .bg-dark {
+                --bs-bg-opacity: 0;
 
-.bg-dark {
-    --bs-bg-opacity: 0;
-}
+            }
+            .card {
 
-.card {
-    border: 0px;
+                border: 0px;
+
+                .card-body {
+                    .producto-titulo {
+                        font-family: $parrafo;
+                        text-transform: uppercase;
+                        color: $blanco;
+                        font-size: 2rem;
+                        font-weight: 500;
+                        line-height: 2.5rem;
+                        letter-spacing: 0.004rem;
+                        margin-bottom: 15px;
+                    }
+                    .producto-info {
+                        font-family: $parrafo;
+                        text-transform: uppercase;
+                        color: $blanco;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        line-height: 1.5rem;
+                        letter-spacing: 0.06em;
+                    }
+                }
+            }
+        }
+    }
 }

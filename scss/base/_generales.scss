@@ -50,29 +50,29 @@ body {
 
 // Reducción al 70%
 
-@media (min-width:425px) and (max-width:768px) {
+// @media (min-width:425px) and (max-width:768px) {
     
-    .separador {
-        width: 18.2em;
-        height: 3.4125em;
-    }
+//     .separador {
+//         width: 18.2em;
+//         height: 3.4125em;
+//     }
 
-    .subtitulo-span {
-        font-size: 1.4em;
-    }
-}
+//     .subtitulo-span {
+//         font-size: 1.4em;
+//     }
+// }
 
 
 // Reducción al 50%
 
-@media (max-width:425px) {
+// @media (max-width:425px) {
 
-    .separador {
-        width: 13em;
-        height: 2.4375em;
-    }
+//     .separador {
+//         width: 13em;
+//         height: 2.4375em;
+//     }
 
-    .subtitulo-span {
-        font-size: 1em;
-    }
-}
+//     .subtitulo-span {
+//         font-size: 1em;
+//     }
+// }

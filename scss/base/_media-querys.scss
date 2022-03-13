@@ -1,4 +1,51 @@
 /* MOBILE */
+@media screen and (max-width: 480px) {
+  body {
+      main {
+          .contenedorTitulos {
+
+              margin-bottom: 0rem;
+
+              .separador {
+                width: 13em;
+                height: 2.4375em;
+              }
+              .subtitulo {
+                  font-size: 2rem;
+                  .subtitulo-span {
+                    font-size: 1.5em;
+                    line-height: 0em;
+                  }
+              }
+          }
+
+          .encargos {
+              margin-bottom: 3rem;
+          }
+
+          .servicios-productos {
+              .productos {
+                  .productos-box {
+                      .card {
+                          .card-body {
+                            .producto-titulo {
+                                font-size: 1.7rem;
+                                margin-bottom: 0.4rem;
+                            }
+                            .producto-info {
+                                font-size: 1rem;
+                            }
+                          }
+                      }
+                  }
+                  
+              }
+          }
+      }
+  }
+}
+
+/* TABLET */
 @media screen and (max-width: 768px) {
     
     body {
@@ -36,7 +83,7 @@
                 height: 3.4125em;
             }
             .subtitulo {
-                font-size: 2.5em;
+                font-size: 1.4em;
             }
 
             .servicios-productos {
